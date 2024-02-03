@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-family:
+        'Courier New',
+        Courier,
+        monospace;
+    ;
+    color: #f0f0f0;
+    font-size: 65.2%;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #2f2f2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 34vh;
+    border-bottom: 7px solid #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    /* width: 100%; */
+    height: 50vh;
+    display: flex;
+    padding-top: 15vh;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.left,
+.right {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    /* border: solid 1px #878080; */
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 16vh;
+    font-size: 5rem;
+}
+
+.number {
+    position: absolute;
+    width: 15rem;
+    height: 10rem;
+    top: calc(34vh - 50px);
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    color: #2f2f2f;
+    font-size: 8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana;
+    font-weight: 600;
+}
+
+.between {
+    margin-top: 4vh;
+    position: absolute;
+    right: 10px;
+    font-size: 15px;
+}
+
+.again {
+    margin-top: 3vh;
+    margin-left: 2vw;
+    width: 90px;
+    height: 70px;
+    position: absolute;
+    left: 10px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    outline: none;
+    border: none;
+}
+
+.again:hover,
+.left button:hover {
+    cursor: pointer;
+    background-color: #c7c7c7;
+}
+
+.left input {
+    width: 2in;
+    height: 0.8in;
+    margin-bottom: 3.2vh;
+    font-size: 7rem;
+    font-family: verdana;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    border: solid 4px #f0f0f0;
+    color: #f0f0f0;
+    border-radius: 15px;
+}
+
+.left button {
+    width: 1.2in;
+    height: 0.5in;
+    font-size: 2rem;
+    border-radius: 8px;
+    align-self: center;
+    outline: none;
+    border: none;
+}
+
+.right p {
+    margin: 16px;
+    width: 200px;
+    font-size: 1.8rem;
+    font-family: Tahoma;
+    font-weight: 400;
+}
